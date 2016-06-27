@@ -20,19 +20,18 @@
                         <thead>
                             <tr>
                                 <th class="col-md-1"> # </th>
-                                                                <th class="col-md-2"> <?php echo $this->Paginator->sort('id'); ?></th>
-                                                                <th class="col-md-2"> <?php echo $this->Paginator->sort('ward_no'); ?></th>
-                                                                <th class="col-md-2"> <?php echo $this->Paginator->sort('residential_code'); ?></th>
-                                                                 <th class="col-md-2"> <?php echo $this->Paginator->sort('residential_name'); ?></th>
-                                                                <th class="col-md-2"> <?php echo $this->Paginator->sort('house_no'); ?></th>
-                                                                <th class="col-md-2"> <?php echo $this->Paginator->sort('house_owner'); ?></th>
-                                                                <th class="col-md-2"> <?php echo $this->Paginator->sort('house_owner_type'); ?></th>
-                                                                <th class="col-md-2"> <?php echo $this->Paginator->sort('caste'); ?></th>
-                                                                <th class="col-md-2"> <?php echo $this->Paginator->sort('religion'); ?></th>
-                                                                <th class="col-md-2"> <?php echo $this->Paginator->sort('language'); ?></th>
-                                                                <th class="col-md-2"> <?php echo $this->Paginator->sort('source_of_income'); ?></th>
-                                                                <th class="col-md-2"> <?php echo $this->Paginator->sort('migration'); ?></th>
-                                                                <th class="col-md-2"> <?php echo $this->Paginator->sort('organization_involvement_id'); ?></th>
+                                                                <th class="col-md-2"> <?php  echo ('Ward No'); ?></th>
+                                                                <th class="col-md-2"> <?php  echo ('Residential Code'); ?></th>
+                                                                 <th class="col-md-2"> <?php echo ('Residential Name'); ?></th>
+                                                                <th class="col-md-2"> <?php  echo ('House No'); ?></th>
+                                                                <th class="col-md-2"> <?php echo  ('House Owner'); ?></th>
+                                                                <th class="col-md-2"> <?php echo ('House Owner Type'); ?></th>
+                                                                <th class="col-md-2"> <?php echo ('Caste'); ?></th>
+                                                                <th class="col-md-2"> <?php echo ('Religion'); ?></th>
+                                                                <th class="col-md-2"> <?php echo ('Language'); ?></th>
+                                                                <th class="col-md-2"> <?php echo ('Source of Income'); ?></th>
+                                                                <th class="col-md-2"> <?php echo ('Migration'); ?></th>
+                                                                <th class="col-md-2"> <?php echo ('Organization Involvement'); ?></th>
                                                                 <th class="col-md-1 actions"> Actions</th>
                             </tr>
                         </thead>
@@ -40,7 +39,6 @@
                         	<?php foreach ($familyInfos as $familyInfo): ?>
 	<tr>
 		<th></th>
-		<td><?php echo h($familyInfo['FamilyInfo']['id']); ?></td>
 		<td><?php echo h($familyInfo['FamilyInfo']['ward_no']); ?></td>
 		<td><?php echo h($familyInfo['FamilyInfo']['residential_code']); ?></td>
 			<td><?php echo h($familyInfo['FamilyInfo']['resident_name']); ?></td>

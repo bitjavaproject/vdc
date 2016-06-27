@@ -58,13 +58,3 @@
 		<!-- END PORTLET-->
 	</div>
 </div>
-
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('Edit Family Age Group'), array('action' => 'edit', $familyAgeGroup['FamilyAgeGroup']['id'])); ?> </li>
-		<li><?php echo $this->Form->postLink(__('Delete Family Age Group'), array('action' => 'delete', $familyAgeGroup['FamilyAgeGroup']['id']), null, __('Are you sure you want to delete # %s?', $familyAgeGroup['FamilyAgeGroup']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Family Age Groups'), array('action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Family Age Group'), array('action' => 'add')); ?> </li>
-	</ul>
-</div>

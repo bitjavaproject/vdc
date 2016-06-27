@@ -99,11 +99,3 @@
     </div>
 </div>
 
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('New Family Info'), array('action' => 'add')); ?></li>
-		<li><?php echo $this->Html->link(__('List Organization Involvements'), array('controller' => 'organization_involvements', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Organization Involvement'), array('controller' => 'organization_involvements', 'action' => 'add')); ?> </li>
-	</ul>
-</div>

@@ -19,25 +19,25 @@
                                                                                                             'class' => 'form-control'))); ?>
                 <div class="form-body">
                     <div class='form-group'>
-	<label class='col-md-3 control-label'>desgnation_type_id</label>
+	<label class='col-md-3 control-label'>Designation Type</label>
 	<div class='col-md-4'>
 		<?php echo $this->Form->input('desgnation_type_id'); ?>
 	</div>
 </div>
 <div class='form-group'>
-	<label class='col-md-3 control-label'>male</label>
+	<label class='col-md-3 control-label'>Male</label>
 	<div class='col-md-4'>
 		<?php echo $this->Form->input('male'); ?>
 	</div>
 </div>
 <div class='form-group'>
-	<label class='col-md-3 control-label'>female</label>
+	<label class='col-md-3 control-label'>Female</label>
 	<div class='col-md-4'>
 		<?php echo $this->Form->input('female'); ?>
 	</div>
 </div>
 <div class='form-group'>
-	<label class='col-md-3 control-label'>family_info_id</label>
+	<label class='col-md-3 control-label'>Family Info</label>
 	<div class='col-md-4'>
 		<?php echo $this->Form->input('family_info_id'); ?>
 	</div>
@@ -58,19 +58,4 @@
             </div>
         </div>
     </div>
-</div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-
-		<li><?php echo $this->Html->link(__('List Family Desgnation Infos'), array('action' => 'index')); ?></li>
-		<li><?php echo $this->Html->link(__('List Desgnation Types'), array('controller' => 'desgnation_types', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Desgnation Type'), array('controller' => 'desgnation_types', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Genders'), array('controller' => 'genders', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Gender'), array('controller' => 'genders', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Family Infos'), array('controller' => 'family_infos', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Family Info'), array('controller' => 'family_infos', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Family Member Infos'), array('controller' => 'family_member_infos', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Family Member Info'), array('controller' => 'family_member_infos', 'action' => 'add')); ?> </li>
-	</ul>
 </div>

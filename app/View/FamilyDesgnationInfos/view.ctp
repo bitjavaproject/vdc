@@ -80,23 +80,7 @@
 	</div>
 </div>
 
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('Edit Family Desgnation Info'), array('action' => 'edit', $familyDesgnationInfo['FamilyDesgnationInfo']['id'])); ?> </li>
-		<li><?php echo $this->Form->postLink(__('Delete Family Desgnation Info'), array('action' => 'delete', $familyDesgnationInfo['FamilyDesgnationInfo']['id']), null, __('Are you sure you want to delete # %s?', $familyDesgnationInfo['FamilyDesgnationInfo']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Family Desgnation Infos'), array('action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Family Desgnation Info'), array('action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Desgnation Types'), array('controller' => 'desgnation_types', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Desgnation Type'), array('controller' => 'desgnation_types', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Genders'), array('controller' => 'genders', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Gender'), array('controller' => 'genders', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Family Infos'), array('controller' => 'family_infos', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Family Info'), array('controller' => 'family_infos', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Family Member Infos'), array('controller' => 'family_member_infos', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Family Member Info'), array('controller' => 'family_member_infos', 'action' => 'add')); ?> </li>
-	</ul>
-</div>
+
 	
 <div class="row familyDesgnationInfos related">
     <div class="col-md-12">

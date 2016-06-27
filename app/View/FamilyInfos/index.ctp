@@ -41,7 +41,7 @@
 		<th></th>
 		<td><?php echo h($familyInfo['FamilyInfo']['ward_no']); ?></td>
 		<td><?php echo h($familyInfo['FamilyInfo']['residential_code']); ?></td>
-			<td><?php echo h($familyInfo['FamilyInfo']['resident_name']); ?></td>
+		<td><?php echo h($familyInfo['FamilyInfo']['resident_name']); ?></td>
 		<td><?php echo h($familyInfo['FamilyInfo']['house_no']); ?></td>
 		<td><?php echo h($familyInfo['FamilyInfo']['house_owner']); ?></td>
 		<td><?php echo h($familyInfo['FamilyInfo']['house_owner_type']); ?></td>
